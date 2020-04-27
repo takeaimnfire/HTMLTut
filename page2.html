@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>HTML Web Page</title>
+
+    <meta name="descrition" content="GoSkills.com basic html editing tutorial">
+    
+</head>
+    <body>
+
+        <h1>Page 2</h1>
+        <p title="Welcome" style="font-size: 35px; font-family: Arial;">HTML GoSkills.com course.</p>
+        <a href="index.html">Main Page</a> | <a href="http://www.google.com" target="_blank">Google</a>
+        <pre>
+            <strong>
+                <em>
+            This uses     whatever    formatting
+            you     actually     type     out.
+                </em>
+            </strong>
+        </pre>
+        <a href="index.html"><img src="images/ss.png" height="200px" width="150px" title="Screenshot" border="2" alt="Screenshot picture"></a>
+        <br />
+        <sup>This text will go up.</sup>
+        <sub>This text will go down.</sub>
+        <!-- This is an html comment. -->
+        <blockquote>
+            This will generate an indented paragraph that will block out an entire paragraph.
+            Generally used for an article or tabled paragraphs.
+        </blockquote>
+
+        <p>&copy; Luke Copson - All rights reserved. &reg; 2020 &trade; Copson Inc.</p>
+
+        <table style="width: 70%;" border="1" align="center">
+            <tr>
+                <th bgcolor="grey" colspan="5">My Table Log</th>
+            </tr>
+            <tr align="center">
+                <th>Category</th>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Miles</th>
+            </tr>
+            <tr align="center">
+                <td rowspan="4" bgcolor="grey">Workers</td>
+                <td>Luke</td>
+                <td>4/27/2020</td>
+                <td>12:20pm</td>
+                <td>556</td>
+            </tr>
+            <tr align="center">
+                <td>John</td>
+                <td>12/22/2020</td>
+                <td>1:00pm</td>
+                <td>225</td>
+            </tr>
+            <tr align="center">
+                <td>Jim</td>
+                <td>12/10/2020</td>
+                <td>2:00pm</td>
+                <td>350</td>
+            </tr>
+        </table>
+
+        <strong>To Do List</strong>
+        <ul style="list-style: square;">
+            <li>Get Groceries</li>
+            <li>Do Work Hours</li>
+            <li>Provide Deliverables</li>
+        </ul>
+        <br />
+        <strong>Checklist</strong>
+        <ol type="A">
+            <li>Check back</li>
+            <li>Set Alarm</li>
+            <li>Test lock</li>
+            <li>Lock doors</li>
+        </ol>
+
+        <form action="/action_page.php" method="GET">
+        
+            First Name:<br/>
+            <input type="password" name="firstname" value=""><br/><br/>
+
+            Last Name:<br/>
+            <input type="text" name="lastname" value=""><br/><br/>
+
+            <textarea name="message" rows="15" cols="20"></textarea>
+            <br/><br/>
+
+            Send E-mail to:<br/>
+            <select name="dropdown">
+                <option value="tech">Tech Support</option>
+                <option value="sales">Sales</option>
+                <option value="accounting">Accounting</option>
+                <option value="ceo">CEO</option>
+            </select>
+            <br/><br/>
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </body>
+
+
+</html>
