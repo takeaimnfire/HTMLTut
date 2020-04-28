@@ -17,17 +17,16 @@
             <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
-                    <a class="navbar-brand" href="resume.html">Luke Copson</a>
+                    <a class="navbar-brand" href="index.php">Luke Copson</a>
               </div>
                           
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" style="text-align: right;">
                   <li><a href="personal.html">Personal Statement</a></li>
-                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="index.php">Resume</a></li>
                   </li>
                 </ul>
-              </div><!-- /.navbar-coalapse -->
             </div><!-- /.container-fluid -->
-          </nav>
+        </nav>
         <!-- Brginning of actual resume -->
         <div class="container">
           <div class="panel panel-default">
@@ -36,7 +35,7 @@
             </div>
             <div class="panel-body">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-9" style="text-align: justify; max-width: 80%;">
                         <strong>Computer Technician II at Whalley Computer Associates</strong><br/>
                         Working at WCA since 2015.  Was recognized as a higher level technician immediately upon hire.  Put in charge of high 
                         level customer projects for efficiency, and productivity.  As well as being able to come up with creative solutions to solve 
@@ -47,7 +46,7 @@
                     <div class="col-md-3" style="text-align: right; font-style: italic;">
                         2015-2020
                     </div>
-                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -58,10 +57,10 @@
                 <h3 class="panel-title"><strong><em>Education</em></strong></h3>
               </div>
               <div class="panel-body">
-               <div class="col-md-9">
+                <div class="col-md-9">
                    <strong>Springfield Technical Community College</strong><br/>
                    Studied computer programming, and Information systems technology
-               </div>>
+                </div>
                <div class="col-md-3" style="text-align: right; font-style: italic;">
                    1999-2001
                </div>
@@ -69,43 +68,63 @@
             </div>
         </div>
         <br/><br/>
-        <div class="container">
+        <div class="container" style="align-items: center; align-content: inherit;">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title"><strong><em>Technical Skills</em></strong></h3>
               </div>
-              <div class="panel-body">
-                <div class="col-md-3">
+              <div class="panel-body" style="align-content: center;">
+                <div class="col-md-3" style="max-width: 25%;">
                     <ul>
+                        <strong>Programming</strong>
                         <li>HTML</li>
-                        <li>CSS</li>
+                        <li>CSS</li>5
                         <li>JavaScript</li>
                         <li>Visual Basic</li>
                         <li>Java</li>
                         <li>VBScript</li>
+                        <li>C#</li>
+                        <li>Python</li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    
+                <div class="col-md-3" style="max-width: 25%;">
+                    <ul><strong>Applications</strong>
+                        <li>Photoshop</li>
+                        <li>Microsoft Office 365</li>
+                        <li>Visual Studio</li>
+                        <li>Dreamweaver</li>
+                        <li>Avid Pro Tools</li>
+                        <li>Ableton Live</li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
-                    
+                <div class="col-md-3" style="max-width: 25%;">
+                    <ul><strong>Operating Systems</strong>
+                        <li>Windows Server 2003, 2008, 2012, 2016, 2019</li>
+                        <li>Windows 95, 98, XP, Vista, 7, 8, 10</li>
+                        <li>Linux</li>
+                        <li>MacOS 10</li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
-                    
+                <div class="col-md-3" style="max-width: 25%;">
+                    <ul><strong>Hardware</strong>
+                        <li>Switches</li>
+                        <li>Firewalls</li>
+                        <li>Access Points</li>
+                        <li>Routers</li>
+                        <li>Controllers</li>
+                        <li>Servers</li>
+                        <li>Workstations</li>
+                        <li>Thin Clients</li>
+                        <li>Laptops</li>
+                        <li>Hand-Held Wireless</li>
+                        <li>Printers</li>
+                    </ul>
                 </div>
               </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                .col-md-8
-            </div>
-            <div class="col-md-4">
-                .col-md-4
-            </div>
-          </div>
         <br/><br/>
-        &copy; Luke Copson - All Rights Reserved &reg;
+        <p style="text-align: center;">&copy; Luke Copson - &reg; All Rights Reserved</p>
     </body>
-</html>
+
+    </html>
