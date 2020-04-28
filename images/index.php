@@ -38,7 +38,7 @@
                     <div class="col-md-9" style="text-align: justify; max-width: 80%;">
                         <strong>Computer Technician II at Whalley Computer Associates</strong><br/>
                         Working at WCA since 2015.  Was recognized as a higher level technician immediately upon hire.  Put in charge of high 
-                        level customer projects for efficiency, and productivity.  As well as being able to come up with creative solutions to solve 
+                        level change customer projects for efficiency, and productivity.  As well as being able to come up with creative solutions to solve 
                         intricate production issues.  Write many technical work isntructions that all techs use to stage customer equipment.  Some of the 
                         items staged include but are not limited to: Serverrs, Workstations, Thin Clients, Printers, Controllers, Access Points, WIPS, Firewalls,
                         Switches, Extenders, Registers, Scanners, Hand-held wireless products, etc. 
